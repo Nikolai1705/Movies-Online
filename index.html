@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Movies online</title>
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+  
+ 
+    <header class="navbar">
+        <div class="list">
+            <button class="nav-item">Home</button>
+            <button class="nav-item">About Us</button>
+            <div class="dropdown">
+                <button class="dropbtn">Pages 
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Pricing</a>
+                  <a href="#">FAQs</a>
+                  <a href="#">Our teams</a>
+                  <a href="#">Forum</a>
+                  <a href="#">Elements</a>
+                  <a href="#">Careers</a>
+                </div>
+              </div>
+            <button class="nav-item">Blog</button>
+            <button class="nav-item">Gallery</button>
+            <button class="nav-item">Contact Us</button>
+        </div>
+    </header>
+
+    <nav class="head">
+        <div class="logo"><span class="first-letter">M</span>OVIES ONLINE</div> 
+              <div class="InputContainer">
+            <input type="text" name="text" class="input" id="input" >
+
+            <label for="input" class="labelforsearch">
+          <svg viewBox="0 0 512 512" class="searchIcon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
+          </label>
+          <div class="border"></div>
+
+
+          </div>
+        </div>
+    </nav>
+
+    
+        <div id="slider-1" class="owl-carousel">
+            <div class="film-slide"> <img src="./icons/capsule_616x353.jpg" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/flash.jpg" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/hulk.webp" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/game_of_thrones_17-wallpaper-5120x2160.jpg" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/pirates-of-the-caribbean.webp" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/avengers.webp" alt=""> </div>
+            <div class="film-slide"> <img src="./icons/thor.jpg" alt=""> </div>
+        </div>
+<br>
+<br>
+
+
+<table class="blue-table">
+    <tr>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/transformersageofextinctionver12xlgjpg-dcf6f7.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">TRANSFORMERS</div>
+                    <div class="text2">FANTASY</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/blackrock.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">BLACK ROCK</div>
+                    <div class="text2">DRAMA</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/dragonlore.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">DRAGON LORE</div>
+                    <div class="text2">HISTORICAL</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/safehaven.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">SAFE HAVEN</div>
+                    <div class="text2">THRILLER</div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/olympus.webp" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">OLYMPUS</div>
+                    <div class="text2">THRILLER</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/the numbers station.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">THE NUMBERS STATION</div>
+                    <div class="text2">THRILLER</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/download.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">IRON MAN</div>
+                    <div class="text2">FANTASY</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/the huntsman.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">THE HUNTSMAN</div>
+                    <div class="text2">ACTION</div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/huntsman-thriller.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">THE HUNTSMAN</div>
+                    <div class="text2">THRILLER</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/oblivion-movie-e1366475174478.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">OBLIVION</div>
+                    <div class="text2">FANTASY</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/elysium.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">ELYSIUM</div>
+                    <div class="text2">FANTASY</div>
+                </div>
+            </div>
+        </td>
+        <td class="movie">
+            <div class="image-container">
+                <img src="./icons/the jungle book.jpg" alt="" style="width:100%">
+                <div class="overlay-text">
+                    <div class="text1">THE JUNGLE BOOK</div>
+                    <div class="text2">FANTASY</div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+
+<div class="main-intro">
+    BEST MOVIES ONLINE FOR FREE
+</div>
+
+    <div class="sub-intro">
+    <p>Most Popular Movies  -  Watch All Movies Online</p>
+  </div>
+
+    <table class="padded-table">
+        <tr>
+            <td>
+                <div class="lower-movie-div">
+                    <img src="./icons/broken_city.jpg" class="watch-online-img">
+                    <div class="lower-movie-div1">
+                        <div class="upper-watch">Action</div>
+                        <button class="watch-btn">Watch Online</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="lower-movie-div">
+                    <img src="./icons/les_miserables.jpg" class="watch-online-img">
+                    <div class="lower-movie-div1">
+                        <div class="upper-watch">Action</div>
+                        <button class="watch-btn">Watch Online</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="lower-movie-div">
+                    <img src="./icons/star_trek.jpg" class="watch-online-img">
+                    <div class="lower-movie-div1">
+                        <div class="upper-watch">Action</div>
+                        <button class="watch-btn">Watch Online</button>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="lower-movie-div">
+                    <img src="./icons/wwz.jpg" class="watch-online-img">
+                    <div class="lower-movie-div1">
+                        <div class="upper-watch">Action</div>
+                        <button class="watch-btn">Watch Online</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <div class="sec-intro">
+        <p class="latest-movies">LATEST MOVIES</p>
+    </div>
+
+  
+
+    <div class="container">
+        <table class="third-table">
+            <tr>
+                <td>
+                    <img src="./icons/hobbit.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">The Hobbit</div>
+                </td>
+           
+                <td>
+                    <img src="./icons/A Tale of Love and Darkness.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">A Tale of Love ...</div>
+                </td>
+                <td>
+                    <img src="./icons/impossible.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">The Impossible</div>
+                </td>
+                <td>
+                    <img src="./icons/avatar.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">Avatar</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./icons/alice in wonderland.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">Alice in Wanderland</div>
+                </td>
+                <td>
+                    <img src="./icons/333 haunted.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">333 Haunted</div>
+                </td>
+                <td>
+                    <img src="./icons/007 spectre.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">007 Specter</div>
+                </td>
+                <td>
+                    <img src="./icons/me before you.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">Me Before You</div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="./icons/mother's day.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">Mother's Day</div>
+                </td>
+                <td>
+                    <img src="./icons/the help.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">The Help</div>
+                </td>
+                <td>
+                    <img src="./icons/hunger games.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">The Hunger Games</div>
+                </td>
+                <td>
+                    <img src="./icons/everest.jpg" alt="" class="third-movie-table-img">
+                    <div class="third-movie-div">Everest</div>
+                </td>
+            </tr>
+        </table>
+
+        <div class="sidebar">
+            <div class="cont-1">
+                <div class="bubble bubble-bottom-left">POPULAR FILMS</div>  <br>
+                <p class="movies-title">1. Trolls (2016)</p>
+                <p class="movies-title">2. Romance (1999)</p>
+                <p class="movies-title">3. Doctor Strange (2016)</p>
+                <p class="movies-title">4. Keeping Up with the Joneses (2016)</p>
+                <p class="movies-title">5. The BFG (2016)</p>
+                <p class="movies-title">6 The Accountant (2016)</p>
+                <p class="movies-title">7. Boo! A Medea Halloween (2016)</p>
+            </div>
+            
+             <div class="cont-2">
+                <div class="bubble bubble-bottom-left">NEWS</div> <br>
+                <p class="news-title">Adventure Movies: <br>
+                    Action Mixed in <br>
+                    Beautiful Locales
+                </p>
+                <p class="news-sub">Adventure movies suck a viewer into the movie <br> and keep him glued to the edge of the seat untill <br> the end</p>
+                <p class="news-date">November 21,2016</p>
+                <hr>
+                <p class="news-title">The Wonder World of <br> Kids's Movies</p>
+                <p class="news-sub">Online streaming movies are doing a great job <br> in the development of kids by giving the <br> oppurtunity to watch various</p>
+                <p class="news-date">November 21,2016</p>
+             </div>
+             
+        </div>
+
+    </div>
+
+    <div class="but-container">
+        <button class="button1">
+          1
+        </button>
+        <button class="button">
+            2
+          </button>
+          <button class="button">
+            >
+          </button>
+          <button class="button">
+            >>
+          </button>
+        <span class="backdrop"></span>
+        </div>
+
+        <footer>
+            <p class="footer">movies online © 2016 All Rights Reserved | Privacy Policy</p>
+        </footer>
+
+</body>
+</html>
